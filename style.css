@@ -1,0 +1,229 @@
+.navbar-custom {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+.container{
+          max-width: 1450px;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+    color: #fff;
+}
+.navbar-custom .nav-link:hover {
+    color: #ffa350;
+}
+
+.search-bar {
+    max-width: 300px;
+}
+.icon-with-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon-with-text i {
+    font-size: 20px;
+    color: #ffa350;
+}
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+.footer-section h5 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer-section .info-list {
+    list-style: none;
+    padding: 0;
+}
+.footer-section .info-list li {
+    margin-bottom: 10px;
+}
+.footer-section .info-list li i {
+    color: #ff0000; 
+    margin-right: 8px;
+}
+.footer-section a {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-section a:hover {
+    color: #007bff;
+}
+.footer-section hr {
+    border-top: 2px solid #ddd;
+    width: 50%;
+    margin: 10px auto;
+}
+.bordergg {
+    padding: 10px 15px;
+    max-width: 150px;
+    font-weight: bold;
+    font-size: smaller;
+}
+.anhsanpham {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.the{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 0;
+}
+.anhsanpham:hover { 
+    transform: scale(1.05);
+    background-color: #ffffff;
+}
+.borderanhsanpham {
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.borderanhsanpham img {
+    margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+    background-color: #ddd;
+}
+.borderanhsanpham:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+}
+.line {
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #f9c55d; /* Màu nền của biểu tượng nút */
+    border-radius: 5%;
+    height: 50px; /* Tùy chọn: làm tròn các góc */
+}
+@media screen and (max-width: 600px) {
+.btn {
+   font-size: 10px;
+   height: 30px;
+}
+}
+.hover-hr {
+    border: 0;
+    border-top: 3px solid #010b17; 
+    width: 50%;
+    margin: 10px auto; 
+    transition: width 0.5s ease; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.hover-hr:hover {
+    width: 80%;
+}
+
+.card:hover {
+    background-color: #ffffff;
+    box-shadow:  0 8px 8px  rgba(0, 0, 0, 0.2), 
+                 0 -8px 8px rgba(0, 0, 0, 0.2), 
+                 8px 0 8px  rgba(0, 0, 0, 0.2), 
+                -8px 0 8px  rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.price {
+    position: absolute;
+    bottom: -1px; 
+    width: 100%;
+   
+}
+
+.dropdown-menu 
+{
+display: none;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.dropdown-menu table {
+width: 100%;
+font-size: 16px;
+}
+.dropdown-menu th, .dropdown-menu td {
+padding: 10px;
+text-align: start; 
+white-space: nowrap;
+
+}
+.dropdown-menu th {
+background-color: #ffffff; 
+font-weight: bold; 
+border-left: 3px solid #ffffff !important; 
+border-bottom: 10px #ff7f00 !important;
+}
+.dropdown-menu td{
+border-left: 30px solid #ffffff !important;
+border-top: 1px solid #cfd7df !important;
+}   
+.dropdown-menu td:hover, .dropdown-menu th:hover {
+color: red; 
+transition: color 0.3s ease, font-size 0.3s ease; 
+}
+
+
+@media screen and (max-width: 600px) {
+.btn {
+   font-size: 10px;
+   height: 30px;
+}
+}
+.body-content {
+    padding-top: 90px; /* Điều chỉnh giá trị này theo chiều cao của navbar */
+}
+.line {
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+.card:hover {
+    box-shadow:  0 8px 8px  rgba(0, 0, 0, 0.2), 
+                 0 -8px 8px rgba(0, 0, 0, 0.2), 
+                 8px 0 8px  rgba(0, 0, 0, 0.2), 
+                -8px 0 8px  rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.price {
+    position: absolute;
+    bottom: -1px; /* Adjust this value as needed */
+    width: 100%;
+   
+}
+.toc-container {
+    max-width: 300px;
+    position: sticky;
+    top: 10px;
+    }
+    .content-section {
+    margin-top: 20px;
+    }
+    .device-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    }
+  .device-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    } 
+  .add-device {
+    color: #007bff;
+    cursor: pointer;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #f9c55d; /* Màu nền của biểu tượng nút */
+        border-radius: 5%;
+        height: 50px; /* Tùy chọn: làm tròn các góc */
+    }
+    
